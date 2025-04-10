@@ -1,0 +1,45 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "cin": "11165887",
+      "name": "Sirine",
+      "type": "Etudiante",
+      "createdDate": "22-05-2002"
+    },
+    {
+      "cin": "11126992",
+      "name": "Hanen",
+      "type": "Teacher",
+      "createdDate": "27-12-1999",
+      "id": "2"
+    }
+  ],
+  "Evt": [
+    {
+      "titre": "Event 1",
+      "dateDebut": "2025-02-28T23:00:00.000Z",
+      "dateFin": "2025-03-14T23:00:00.000Z",
+      "lieu": "Sfax",
+      "id": "1"
+    }
+  ],
+  "Pub":[
+    {
+      "id":1,
+      "type":"Books",
+      "titre": "it ends with us",
+      "lien": "abcd",
+      "date": "2025-02-28T23:00:00.000Z",
+      "sourcePdf": "hello"
+    },
+    {
+      "id":2,
+      "type":"Shampoo",
+      "titre": "Queen",
+      "lien": "abcde",
+      "date": "2025-02-28T23:00:00.000Z",
+      "sourcePdf": "bye"
+    }
+  ]
+}
