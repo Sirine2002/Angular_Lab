@@ -4,7 +4,7 @@
       "id": "1",
       "cin": "11165887",
       "name": "Sirine",
-      "type": "Etudiante",
+      "type": "Student",
       "createdDate": "22-05-2002"
     },
     {
@@ -24,22 +24,30 @@
       "id": "1"
     }
   ],
-  "Pub":[
+  "Pub": [
     {
-      "id":1,
-      "type":"Books",
+      "id": "1",
+      "type": "Books",
       "titre": "it ends with us",
       "lien": "abcd",
       "date": "2025-02-28T23:00:00.000Z",
       "sourcePdf": "hello"
     },
     {
-      "id":2,
-      "type":"Shampoo",
+      "id": "2",
+      "type": "Shampoo",
       "titre": "Queen",
       "lien": "abcde",
       "date": "2025-02-28T23:00:00.000Z",
       "sourcePdf": "bye"
+    },
+    {
+      "id": "535b",
+      "titre": "aaa",
+      "lien": "bbbb",
+      "type": "journal",
+      "sourcePdf": "ddd",
+      "date": "2025-04-10T23:00:00.000Z"
     }
   ]
 }

@@ -1,1 +1,57 @@
-<p>dashboard works!</p>
+
+ 
+
+<div class="dashboard-container">
+
+  <div class="card-grid">
+    <mat-card class="dashboard-card">
+      <mat-card-title>Members</mat-card-title>
+      <mat-card-content>{{ Nb_Members }}</mat-card-content>
+    </mat-card>
+
+    <mat-card class="dashboard-card">
+      <mat-card-title>Events</mat-card-title>
+      <mat-card-content>{{ Nb_Events }}</mat-card-content>
+    </mat-card>
+
+    <mat-card class="dashboard-card">
+      <mat-card-title>Articles</mat-card-title>
+      <mat-card-content>{{ Nb_Articles }}</mat-card-content>
+    </mat-card>
+
+    <mat-card class="dashboard-card">
+      <mat-card-title>Tools</mat-card-title>
+      <mat-card-content>{{ Nb_Tools }}</mat-card-content>
+    </mat-card>
+  </div>
+
+
+  <div class="chart-grid">
+    <mat-card class="chart-card">
+      <mat-card-content>
+        <div class="chart-wrapper">
+          <canvas baseChart
+                  [type]="'line'"
+                  [datasets]="chartData"
+                  [labels]="chartLabels"
+                  [options]="chartOptions">
+          </canvas>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="chart-card">
+      <mat-card-content>
+        <div class="chart-wrapper">
+          <canvas baseChart
+                  [type]="'pie'"
+                  [datasets]="chartDatapie"
+                  [labels]="chartLabelspie"
+                  [options]="chartOptionspie">
+          </canvas>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+</div>

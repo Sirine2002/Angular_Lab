@@ -1,0 +1,52 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.dashboard-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  mat-card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #3f51b5;
+  }
+
+  mat-card-content {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+}
+
+.chart-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.chart-card {
+  flex: 1 1 45%;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.chart-wrapper {
+  width: 100%;
+  height: auto;
+}

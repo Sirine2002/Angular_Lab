@@ -5,6 +5,7 @@ import { PubService } from 'src/Services/pub.service';
 import { ModelEvtComponent } from '../model-evt/model-evt.component';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { PubDetailsComponent } from '../pub-details/pub-details.component';
+import { PubModalComponent } from '../pub-modal/pub-modal.component';
 
 @Component({
   selector: 'app-article',
@@ -42,6 +43,23 @@ export class ArticleComponent implements OnInit {
     let dialogRef = this.dialog.open(PubDetailsComponent,x );
    
 }
+
+open(){
+  let dialog=this.dialog.open(PubModalComponent, {
+          height: '350px',
+          width: '570px',
+        });
+        dialog.afterClosed().subscribe((res)=>{
+          if(res){
+            this.PS.addPub(res).subscribe(
+              () => {
+                this.fetch()
+              }
+            )
+          }
+
+        })
+      }
 
   // open(): void {
   //     //lançer ouverture de boite 

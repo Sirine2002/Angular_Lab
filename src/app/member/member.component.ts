@@ -21,10 +21,12 @@ export class MemberComponent implements OnInit {
   dataSource: Member[] = []
   displayedColumns: string[] = ['id', 'name', 'cin', 'type', 'createdDate', 'actions'];
   //injection de dépendences: mécanisme qui permet au composant d'utiliser un service
+
   constructor(private MS: MemberService, private dialog: MatDialog) { }
   ngOnInit(): void {//se charge automatiquement lorsqu'on charge le composant
     this.MS.GetAllMembers().subscribe((data) => {
       this.dataSource = data //action
+      
     })
   }
   delete(id: String) {

@@ -1,5 +1,4 @@
 export interface Pub {
-    target: HTMLInputElement;
     id: String;
     type:String;
     titre: String;
