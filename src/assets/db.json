@@ -5,14 +5,53 @@
       "cin": "11165887",
       "name": "Sirine",
       "type": "Student",
-      "createdDate": "22-05-2002"
+      "createdDate": "22-05-2002",
+      "tabEvents":[
+        {
+          "id": "1",
+          "titre": "Event 1",
+          "dateDebut": "2025-02-28T23:00:00.000Z",
+          "dateFin": "2025-03-14T23:00:00.000Z",
+          "lieu": "Sfax"
+        },
+        {
+          "id": "2",
+          "titre": "Event 2",
+          "dateDebut": "2025-02-28T23:00:00.000Z",
+          "dateFin": "2025-03-14T23:00:00.000Z",
+          "lieu": "Tunis"
+        }
+      ]
     },
     {
       "cin": "11126992",
       "name": "Hanen",
       "type": "Teacher",
       "createdDate": "27-12-1999",
-      "id": "2"
+      "id": "2",
+      "tabEvents":[
+        {
+          "id": "3",
+          "titre": "Event 3",
+          "dateDebut": "2025-02-28T23:00:00.000Z",
+          "dateFin": "2025-03-14T23:00:00.000Z",
+          "lieu": "Sousse"
+        },
+        {
+          "id": "4",
+          "titre": "Event 4",
+          "dateDebut": "2025-02-28T23:00:00.000Z",
+          "dateFin": "2025-03-14T23:00:00.000Z",
+          "lieu": "Sfax"
+        },
+        {
+          "id": "5",
+          "titre": "Event 5",
+          "dateDebut": "2025-02-28T23:00:00.000Z",
+          "dateFin": "2025-03-14T23:00:00.000Z",
+          "lieu": "Sousse"
+        }
+      ]
     }
   ],
   "Evt": [
@@ -22,6 +61,27 @@
       "dateFin": "2025-03-14T23:00:00.000Z",
       "lieu": "Sfax",
       "id": "1"
+    },
+    {
+      "titre": "Event 2",
+      "dateDebut": "2025-02-28T23:00:00.000Z",
+      "dateFin": "2025-03-14T23:00:00.000Z",
+      "lieu": "Tunis",
+      "id": "2"
+    },
+    {
+      "titre": "Event 3",
+      "dateDebut": "2025-02-28T23:00:00.000Z",
+      "dateFin": "2025-03-14T23:00:00.000Z",
+      "lieu": "Sousse",
+      "id": "3"
+    },
+    {
+      "titre": "Event 4",
+      "dateDebut": "2025-02-28T23:00:00.000Z",
+      "dateFin": "2025-03-14T23:00:00.000Z",
+      "lieu": "Sfax",
+      "id": "4"
     }
   ],
   "Pub": [
@@ -35,7 +95,7 @@
     },
     {
       "id": "2",
-      "type": "Shampoo",
+      "type": "Books",
       "titre": "Queen",
       "lien": "abcde",
       "date": "2025-02-28T23:00:00.000Z",
